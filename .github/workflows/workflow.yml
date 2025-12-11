@@ -15,7 +15,7 @@ jobs:
     - name: Set up environment
       run: |
         sudo apt-get update
-        sudo apt-get install -y openjdk-8-jre-headless
+        sudo apt-get install -y openjdk-8-jre-headless libvips-dev
         pip3 install pytest pytest-xdist
         pip3 install zapcli
 
